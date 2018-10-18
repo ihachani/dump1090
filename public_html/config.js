@@ -7,7 +7,7 @@
 
 // -- Output Settings -------------------------------------
 // Show metric values
-Metric = false; // true or false
+Metric = true; // true or false
 
 // -- Map settings ----------------------------------------
 // The Latitude and Longitude in decimal format
