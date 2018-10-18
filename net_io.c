@@ -815,6 +815,7 @@ int handleHTTPRequest(struct client *c, char *p) {
         "Content-Length: %d\r\n"
         "Cache-Control: no-cache, must-revalidate\r\n"
         "Expires: Sat, 26 Jul 1997 05:00:00 GMT\r\n"
+        "Access-Control-Allow-Origin: *\r\n"
         "\r\n",
         statuscode,
         ctype,
